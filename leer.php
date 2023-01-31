@@ -9,7 +9,7 @@
 $longitudDeLinea = 1000;
 $delimitador = ","; # Separador de columnas
 $caracterCircundante = '"'; # A veces los valores son encerrados entre comillas
-$nombreArchivo = "productos.csv"; #Ruta del archivo, en este caso está junto a este script
+$nombreArchivo = "https://www.sefin.gob.hn/download_file.php?download_file=/odata/egames/202212.csv"; #Ruta del archivo, en este caso está junto a este script
 # Abrir el archivo
 $gestor = fopen($nombreArchivo, "r");
 if (!$gestor) {
